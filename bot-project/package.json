@@ -1,0 +1,27 @@
+{
+  "name": "max-bot",
+  "version": "1.0.0",
+  "description": "MAX Bot with OpenAI integration and weather forecasts",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "bot",
+    "max",
+    "openai",
+    "weather"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@maxhub/max-bot-api": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
