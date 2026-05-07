@@ -1,0 +1,4 @@
+# Logs directory - auto-created at runtime
+*.log
+*_history.txt
+*_weather_sent.txt
